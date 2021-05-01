@@ -26,5 +26,8 @@
   "devDependencies": {
     "@enuves/eslint-config": "^0.1.1",
     "eslint": "^7.25.0"
+  },
+  "engines": {
+    "node": ">=12.13.0 <13 || >=14"
   }
 }
