@@ -1,9 +1,12 @@
 # hexo-tag-trello
+[![Linter](https://github.com/welksonramos/hexo-tag-trello/actions/workflows/linter.yml/badge.svg)](https://github.com/welksonramos/hexo-tag-trello/actions/workflows/linter.yml) [![npm version](https://img.shields.io/npm/v/hexo-tag-trello.svg)](https://www.npmjs.com/package/hexo-tag-trello) [![license](https://img.shields.io/npm/l/hexo-tag-xvideos.svg?style=flat)](https://raw.github.com/welksonramos/hexo-tag-trello/blob/master/LICENSE)
+
 Display Trello cards in your Hexo blog
 
 <p align="center">
 <img src="screenshot.jpg" />
 </p>
+
 ## Install
 In your blog folder, add this npm dependency to your project
 
