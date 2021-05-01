@@ -1,0 +1,30 @@
+{
+  "name": "hexo-tag-trello",
+  "version": "0.1.0",
+  "description": "Display Trello cards in your Hexo blog",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/welksonramos/hexo-tag-trello.git"
+  },
+  "keywords": [
+    "hexo",
+    "tag",
+    "trello",
+    "cards"
+  ],
+  "author": "Welkson Ramos <welksonr@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/welksonramos/hexo-tag-trello/issues"
+  },
+  "homepage": "https://github.com/welksonramos/hexo-tag-trello#readme",
+  "devDependencies": {
+    "@enuves/eslint-config": "^0.1.1",
+    "eslint": "^7.25.0"
+  }
+}
