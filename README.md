@@ -11,26 +11,18 @@ In your blog folder, add this npm dependency to your project
 $ npm i hexo-tag-trello --save
 ```
 
-## Including JS
-
-To embedding cards on a single page, your only need to include the script tag once before a tag ```</body>``` 
-
-```js
-<script src="https://p.trellocdn.com/embed.min.js"></script>
-
-```
 ## Usage
 
 ```
-{% trello url | mode %}
+{% trello url | compact %}
 ```
 
 ## Options
 
-| name | Description | Required | Values | Default |
+| name | Description | Required | Type  | Default |
  ------ | ---------- | -------- | ------- | ------- |
-| `url`  | The URL from trello card | true | Undefined | Undefined
-| `mode` | The mode for embedded Trello card | false | default/compact | default
+| `url` | The URL from trello card | Yes  | `string`  | Undefined
+| `compact` | The mode for embedded Trello card | No | `boolean` | `false`
 
 # Example
 
@@ -43,7 +35,7 @@ Default (interactive mode):
 As well as the non-interactive, `compact` mode:
 
 ```
-{% trelo https://trello.com/b/wl0iv8lY compact %}
+{% trelo https://trello.com/b/wl0iv8lY true %}
 ```
 
 ## Configuration
