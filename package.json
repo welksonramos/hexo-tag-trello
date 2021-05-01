@@ -29,5 +29,8 @@
   },
   "engines": {
     "node": ">=12.13.0 <13 || >=14"
+  },
+  "dependencies": {
+    "hexo-util": "^2.4.0"
   }
 }
