@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "description": "Display Trello cards in your Hexo blog",
   "main": "index.js",
+  "directories": {
+    "lib":"./lib"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "lint": "eslint .",
     "test": "npm run lint"
