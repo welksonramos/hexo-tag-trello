@@ -1,7 +1,9 @@
 # hexo-tag-trello
 Display Trello cards in your Hexo blog
 
-
+<p align="center">
+<img src="screenshot.jpg" />
+</p>
 ## Install
 In your blog folder, add this npm dependency to your project
 
