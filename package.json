@@ -4,7 +4,7 @@
   "description": "Display Trello cards in your Hexo blog",
   "main": "index.js",
   "directories": {
-    "lib":"./lib"
+    "lib": "./lib"
   },
   "files": [
     "index.js",
@@ -38,8 +38,5 @@
   },
   "engines": {
     "node": ">=12.13.0 <13 || >=14"
-  },
-  "dependencies": {
-    "hexo-util": "^2.4.0"
   }
 }
