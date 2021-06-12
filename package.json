@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-trello",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Display Trello cards in your Hexo blog",
   "main": "index.js",
   "directories": {
